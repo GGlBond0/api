@@ -1,4 +1,4 @@
-name = "project-name"
+name = "api"
 main = "./functions/index.js"  # 指向 API 文件
 compatibility_date = "2024-10-31"  # 使用当前日期
 pages_build_output_dir = "./"  # 输出目录
