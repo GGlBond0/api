@@ -1,9 +1,7 @@
-export async function onRequest(context) {
-  const response = {
-    message: "1"
-  };
-
-  return new Response(JSON.stringify(response), {
-    headers: { 'Content-Type': 'application/json' },
-  });
-}
+export default {
+  async fetch(request) {
+      return new Response("Hello, API!", {
+          headers: { "content-type": "text/plain" },
+      });
+  },
+};
